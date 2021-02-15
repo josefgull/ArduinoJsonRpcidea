@@ -11,8 +11,8 @@ StaticJsonDocument <600>doc;
 
 
 void m1(){
-  doc["Angle"] = "getAngle"+random(1);          //Requestig values from microcontroller
-  doc["MAGnitude"] = "getMagnitude"+random(1);
+  doc["var1"] = "var1"+random(1);          //Requestig values from microcontroller
+  doc["var2"] = "var2"+random(1);
   serializeJsonPretty(doc, Serial);
 }
 
